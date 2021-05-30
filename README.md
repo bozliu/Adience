@@ -32,12 +32,14 @@ Since some of images labels are None or unknow and some of age labels are a spec
 
 ## Run Scripts Example
 
-`! python main1.py \  
+`
+! python main1.py \  
 --model=resnet18 \  
 --pretrained \  
 --scheduler=step \  
 --optimizer=Adam \  
---gender-weight=0.5 \  
---drop-out=0.3\`  
+--gender-weight=0.5 \   
+--drop-out=0.3\    
+`  
 
 
